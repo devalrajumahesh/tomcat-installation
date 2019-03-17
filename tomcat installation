@@ -1,0 +1,17 @@
+=========TOMCAT INSTALLATION=====
+
+1)yum install wget unzip -y
+
+2) wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.rpm
+
+3)rpm -ivh jdk-8u131-linux-x64.rpm
+
+4) wget http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-windows-x64.zip
+
+5)unzip apache-tomcat-8.5.37-windows-x64.zip
+
+6)mv apache-tomcat-8.5.37 /opt/tomcat
+
+7) chmod -R 755 /opt/tomcat/
+
+8)/opt/tomcat/bin/startup.sh
